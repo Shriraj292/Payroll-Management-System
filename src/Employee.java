@@ -41,7 +41,7 @@ abstract public class Employee {
 
     @Override
     public String toString(){
-        return "Employee [Name:" + getEmployeeName() + " ID: " + getEmployeeId() +
-                " Salary: " + calculateSalary() + "]";
+        return "Employee Name [" + getEmployeeName() + "]; Employee ID [" + getEmployeeId() +
+                "]; Employee Salary [" + calculateSalary() + "]";
     }
 }
